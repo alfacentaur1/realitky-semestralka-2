@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/addform.css">
+    <title>Přidat příspěvek</title>
+</head>
+<body>
+    <div>
+        <nav>
+            <h1>Rentco.</h1>
+            <ul>
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="addform.html">Přidat</a></li>
+                <li><a href="profil.html">Profil</a></li>
+            </ul>
+            <ul>
+                <li class="odkazy"><a href="login.html">Přihlásit</a></li>
+                <li class="odkazy"><a href="signup.html">Registrovat</a></li>
+                <li class="odkazy"><a href="signup.html">Odhlásit</a></li>
+                <li><a href="vypisuzivatelu.html" class="a-role">Role</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h2 >Přidání inzerátu</h2>
+    <div class="form-1">
+        <form action="" method="POST" enctype="multipart/form-data">
+            <fieldset>
+                <div class="form">
+                    <label for="lokalita">Lokalita</label>
+                    <input type="text" name="lokalita" id="lokalita">
+                </div>
+                <div class="form">
+                    <label for="cena">Cena</label>
+                    <input type="text" name="cena" id="cena">
+                    </div>
+                    <div class="form" id="select">
+                        <label for="cena">Cena</label>
+                        <input type="text" name="cena" id="cena">
+                        <select name="mena" id="cena">
+                            <option value="czk">czk</option>
+                            <option value="eur">eur</option>
+                        </select>
+                    </div>
+                <div class="form">
+                    <label for="rozměry">Rozměry</label>
+                    <input type="text" name="rozměry" id="rozměry"  >
+                </div>
+                <div class="form">
+                    <label for="popis" class="fieldset">Popis</label>
+                    <textarea name="popis" id="popis" cols="94" rows="15">
+                    </textarea>
+                <div class="form" id="img">
+                    <label for="img">Foto</label>
+                    <input type="file" name="img" id="img" accept="image/png, image/jpeg"   >
+                </div>
+                </div>
+                <div class="form">
+                     <label for="prodej">Chci</label>       
+                     <select name="prodej" id="prodej" class="prodej">
+                         <option value="pronajimat">pronajímat</option>
+                         <option value="prodat">prodat</option>
+                     </select>
+                </div>
+                <div class="form">
+                    <input type="submit" value="Přidat" class="submit">
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
