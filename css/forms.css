@@ -25,7 +25,7 @@ form {
     display:flex;
     align-items: center;
     justify-content: center;
-    height:70vh;
+    height:90vh;
     padding:3px;
     border-radius: 15px;
     -webkit-box-shadow:0px 0px 27px 3px rgba(255,255,255,0.43);
@@ -126,4 +126,24 @@ a:visited {
     form {
         border:1px black solid ;
     }
+}
+
+/* pri vyplnovani policek */
+.chyba {
+    border:red 1px solid;
+}
+
+.chyba:focus {
+    outline:none;
+    border:1px red solid !important;
+}
+
+
+
+
+
+input:focus  {
+    outline:none;
+    outline:1px solid white;
+
 }
