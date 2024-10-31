@@ -128,7 +128,7 @@ a:visited {
     }
 }
 
-/* pri vyplnovani policek */
+/* error pri vyplnovani emailu */
 .chyba {
     border:red 1px solid;
 }
@@ -140,10 +140,28 @@ a:visited {
 
 
 
-
-
 input:focus  {
     outline:none;
     outline:1px solid white;
 
+}
+
+/* error pri vyplnovani hesla - hesla se neshoduji */
+
+#error_hesla {
+    display:none;
+    color:red;
+}
+
+.error_hesla {
+    display:block !important;
+}
+
+.password {
+    border:red 1px solid !important;
+}
+
+.password:focus {
+    outline:none;
+    outline:red 1px solid;
 }
