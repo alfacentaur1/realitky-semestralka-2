@@ -26,7 +26,7 @@
     </div>
     <h2>Upravení inzerátu</h2>
     <div class="form-1">
-        <form action="" method="POST" enctype="multipar/form-data">
+        <form action="#" method="POST" enctype="multipart/form-data">
             <fieldset>
                 <div class="form">
                     <label for="lokalita">Lokalita</label>
@@ -35,7 +35,7 @@
                 <div class="form" id="select">
                     <label for="cena">Cena</label>
                     <input type="text" name="cena" id="cena">
-                    <select name="mena" id="cena">
+                    <select name="mena" id="cena-mena">
                         <option value="czk">czk</option>
                         <option value="eur">eur</option>
                     </select>
@@ -50,17 +50,17 @@
                     </textarea>
                 </div>
                 <div class="form" id="img">
-                    <label for="img">Foto</label>
-                    <input type="file" name="img" id="img" accept="image/png, image/jpeg">
+                    <label for="img-foto">Foto</label>
+                    <input type="file" name="img" id="img-foto" accept="image/png, image/jpeg">
                 </div>
                 <div class="form">
-                    <form action="" method="post">
-                        <label for="prodej">Chci</label>       
-                        <select name="prodej" id="prodej" class="prodej">
-                            <option value="pronajimat">pronajímat</option>
-                            <option value="prodat">prodat</option>
-                        </select>
-                    </form>
+
+                <label for="prodej">Chci</label>       
+                <select name="prodej" id="prodej" class="prodej">
+                    <option value="pronajimat">pronajímat</option>
+                    <option value="prodat">prodat</option>
+                </select>
+
                 </div>
                 <div class="form">
                     <input type="submit" value="Upravit" class="submit">
