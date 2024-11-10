@@ -2,6 +2,7 @@
 
 body {
     background-color: black;
+    height:150vh;
 }
 nav {
     background-color: #15172b;
@@ -51,4 +52,22 @@ nav {
     display:flex;
     align-items: center;
     justify-content: center;
+}
+
+.prispevek-a{
+    padding:0 2rem;
+    border:white solid 1.5px;
+    border-radius:6px;
+    width:100%;
+}
+
+.prispevek-a:hover{
+    color: #08d;
+    border-color: #08d;
+    transition: 0.7s;
+
+}
+
+.prispevek-uprava  {
+    padding-top:2.5rem;
 }
