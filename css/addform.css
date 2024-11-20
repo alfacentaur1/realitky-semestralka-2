@@ -1,16 +1,18 @@
 
 
 fieldset {
-    display:flex;
-    align-items:center;
-    justify-content: center;
+    display: flex;
     flex-direction: column;
-    
-    border-style: none;
-    height:90vh;
-    padding:10rem;
-    
+    align-items: center;
+    justify-content: space-around; 
+    width: 60%; 
+    max-width: 800px; 
+    height: auto;
+    padding: 2rem;
+    margin: 2rem auto; 
+    border: none; 
 }
+
 
 h2 {
     color: white;
@@ -40,12 +42,10 @@ fieldset {
 }
 
 .form {
-    display:flex;
-    text-align:center;
-    flex-wrap: wrap;
-    justify-content:center;
+    display: flex;
     flex-direction: column;
-    padding:0.5rem;
+    align-items: center;
+    width: 100%; 
 }
 
 input {
@@ -97,10 +97,7 @@ textarea {
     padding-top:1.2rem;
 }
 
-#select {
-    display:flex;
 
-}
 select {
     height:4vh;
     width:10%;
@@ -117,7 +114,23 @@ option {
     width:100%;
 }
 
+
+
+input, textarea, select {
+    width: 100%; 
+    max-width: 500px; 
+    margin-bottom: 1rem;
+}
+
+#select {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem; 
+}
+
 #img {
-    width:60%; 
-    margin:1.2vh auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
 }

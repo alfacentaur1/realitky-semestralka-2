@@ -4,20 +4,6 @@ body {
     background-color: black;
     height:150vh;
 }
-nav {
-    background-color: #15172b;
-    display:flex;
-    flex-direction: row;
-    position:fixed;
-    top:0;
-    width:100%;
-    bottom:0;
-    height:17vh;
-    border-bottom:2px solid white;
-    z-index:10000;
-}
-
-
 
 .inzerat {
     margin-top:20vh;
